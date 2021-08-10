@@ -21,7 +21,7 @@ function check(){
     const question_name=[question1,question2,question3,question4,question5,question6,
         question7,question8,question9,question10,question11,question12,question13,question14,question15]
     
-for (var i = 0; i < question_name.length; i++) {
+    for (var i = 0; i < question_name.length; i++) {
     if (question_name[i] == 1){
         score+=1
     }
@@ -31,9 +31,9 @@ for (var i = 0; i < question_name.length; i++) {
     else if (question_name[i] == 3){
         score+=3
     }
-}
+    }
 
-alert("คะแนนของคุณคือ "+score);
+    alert("คะแนนของคุณคือ "+score);
 
 
 
