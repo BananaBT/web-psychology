@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="question.js" rel="question">
+    <script src="main.js"></script>
+    <title>คำถาม</title>
+</head>
+<body id="wallpaper_quiz">
+    <div class="container">
+        <h1 id="head_test">แบบทดสอบวัดแววนักเรียนเพื่อนที่ปรึกษา</h1>
+        <div class="form_quiz">
+            <form name="question">
+                <div class="item"> <!--ข้อที่ 1,3-0-->
+                    <h2 class="quiz" >1.คนทุกคนมีคุณค่า มีศักดิ์ศรี และอยากเป็นคนดี</h2>
+                    <input type="radio" name="quiz_1" value="3" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_1" value="2">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_1" value="1">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_1" value="0">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 2,3-0-->
+                    <h2 class="quiz">2.ใครๆ ก็มีโอกาสผิดพลาดด้วยกันทั้งนั้น</h2>
+                    <input type="radio" name="quiz_2" value="3" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_2" value="2">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_2" value="1">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_2" value="0">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 3,0-3-->
+                    <h2 class="quiz">3.คนอ่อนแอเท่านั้นที่ขอความช่วยเหลือจากคนอื่น</h2>
+                    <input type="radio" name="quiz_3" value="0" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_3" value="1">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_3" value="2">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_3" value="3">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 4, 3-0-->
+                    <h2 class="quiz">4.ท่านชอบที่จะพบปะพูดคุยกับคนอื่น แม้นจะเป็นคนที่ท่านไม่คุ้นเคย</h2>
+                    <input type="radio" name="quiz_4" value="3" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_4" value="2">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_4" value="1">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_4" value="0">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 5, 3-0-->
+                    <h2 class="quiz">5.ใครๆ มักชอบที่จะพูดคุยกับท่าน</h2>
+                    <input type="radio" name="quiz_5" value="3" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_5" value="2">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_5" value="1">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_5" value="0">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 6,0-3-->
+                    <h2 class="quiz">6.ท่านชอบที่จะพูดมากกว่าฟัง </h2>
+                    <input type="radio" name="quiz_6" value="0" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_6" value="1">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_6" value="2">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_6" value="3">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 7, 3-0-->
+                    <h2 class="quiz">7.ใครๆ มักชมท่านว่าท่านเป็นคนที่จับความรู้สึกของคู่สนทนาได้ดี</h2>
+                    <input type="radio" name="quiz_7" value="3" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_7" value="2">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_7" value="1">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_7" value="0">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 8,0-3-->
+                    <h2 class="quiz">8.ท่านมักจะเก็บความรู้สึกไม่ค่อยได้</h2>
+                    <input type="radio" name="quiz_8" value="0" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_8" value="1">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_8" value="2">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_8" value="3">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 9, 3-0-->
+                    <h2 class="quiz">9.ถ้าท่านต้องการจะช่วยใคร ท่านจะช่วยอย่างเต็มที่</h2>
+                    <input type="radio" name="quiz_9" value="3" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_9" value="2">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_9" value="1">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_9" value="0">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 10,0-3-->
+                    <h2 class="quiz">10.ท่านมักจะคิดหรือทำแทนคนอื่น เพราะเกรงว่าผลงานจะออกมาไม่ดีเท่าที่ควร</h2>
+                    <input type="radio" name="quiz_10" value="0" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_10" value="1">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_10" value="2">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_10" value="3">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 11,0-3-->
+                    <h2 class="quiz">11.ท่านมักจะสั่งสอนและให้แนะนำแก่คนใกล้ชิดเสมอ</h2>
+                    <input type="radio" name="quiz_11" value="0" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_11" value="1">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_11" value="2">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_11" value="3">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 12,0-3-->
+                    <h2 class="quiz">12.ท่านมักจะยอมรับความผิดพลาดของคนอื่นได้ยาก</h2>
+                    <input type="radio" name="quiz_12" value="0" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_12" value="1">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_12" value="2">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_12" value="3">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 13, 3-0-->
+                    <h2 class="quiz">13.เมื่อท่านรับปากว่าจะเก็บเรื่อใดเป็นความลับ ท่านสามารถทำได้ 100%</h2>
+                    <input type="radio" name="quiz_13" value="3" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_13" value="2">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_13" value="1">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_13" value="0">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 14, 3-0-->
+                    <h2 class="quiz">14.ความคิดและการกระทำของท่านไม่ค่อยเหมือนใคร</h2>
+                    <input type="radio" name="quiz_14" value="3" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_14" value="2">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_14" value="1">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_14" value="0">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="item"> <!--ข้อที่ 15,0-3-->
+                    <h2 class="quiz">15.รูปร่าง หน้าตา การแต่งกาย และท่าทางของท่านไม่น่าจะมีส่วนต่อความสำเร็จหรือความล้มเหลวของ YC *</h2>
+                    <input type="radio" name="quiz_15" value="0" required>
+                    <label>จริง</label>
+                    <input type="radio" name="quiz_15" value="1">
+                    <label>ค่อนข้างจริง</label>
+                    <input type="radio" name="quiz_15" value="2">
+                    <label>ค่อนข้างไม่จริง</label>
+                    <input type="radio" name="quiz_15" value="3">
+                    <label>ไม่จริง</label>
+                </div>
+                <div class="button" id="button_summit_quiz">
+                    <input type="submit" onsubmit="check();" class="myButton" value="ส่งคำตอบ">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

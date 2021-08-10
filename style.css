@@ -1,0 +1,239 @@
+/*
+>>>Code color<<<
+
+#3e9693
+#7ec2d3
+#dacfc4
+#9e9630
+#92d1a7
+#839e7a
+#62565e
+#ab748c
+#5a775b
+#e2d46d
+*/
+/*
+พื้นหลัง
+*/
+#wallpaper_index{
+
+	background: url(pic/cover.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+
+#wallpaper_information{
+
+	background: url(pic/score.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+
+}
+#wallpaper_quiz
+{
+	background: url(pic/quiz.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+body
+{
+    font-family: 'Kanit', sans-serif;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+
+	
+}
+
+.container
+{
+    text-align:center;
+    position: static;
+
+
+	
+}
+
+.header
+{
+    font-size: 4vw;
+	margin-top: 8vh ;
+	align-items: center;
+	color: white;
+}
+#header_information
+{
+	padding-top: 4.5em;
+	color: black;
+
+}
+.under_head
+{
+    font-size: 1.5vw;
+	padding-left: 5vh;
+	padding-right: 5vh;
+    border-radius: 10px;
+    margin: 1em;
+	align-items: center;
+	color: white;
+
+}
+.button{
+	margin: 1em;
+	box-sizing: border-box;
+	align-items: center;
+    width: auto;
+	height: 50vh;
+	padding-top: 30vh;
+}
+
+.myButton {
+	box-shadow: 3px 2px 0px 0px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:11px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: "kanit";
+	font-size: 2vw;
+	padding:7px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	width: 20%;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#name 
+{
+	block-size:  1em;
+	font-size: 0.9em;
+	border-style: solid;
+	border-radius: 3px;
+	border: none;
+	box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+
+}
+
+.form_information
+{
+	font-size: 0.5em;
+}
+
+#head_test
+{
+	box-sizing: border-box;
+	margin-top: 90vh;
+	margin-left: 1em;
+	margin-right: 5em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	font-size: 1.3em;
+	text-align: left;
+	color: #3e9693;
+	border-bottom: solid 3px #01b7cd;
+	margin-bottom: 3vh;
+
+}
+
+.item{
+	font-size: 1vw;
+	padding-bottom: 15px;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+
+}
+
+.form_quiz
+{
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    box-sizing: border-box;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.quiz
+{
+	padding: 10px 5px;
+    background: #efefef;
+    margin: auto;
+	margin-bottom: 1vh;
+    line-height: 1.5em;
+	text-align: left;
+	font-weight: normal;
+	font-size: 1em;
+
+}
+#button_summit_quiz
+{
+	padding: 0;
+	margin: 0;
+	margin-top: 5vh;
+	height: 15vh;
+}
+
+
+
+/* Uses vh and vm with calc */
+@media screen and (min-width: 25em){
+	html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+  }
+  
+  /* Safari <8 and IE <11 */
+  @media screen and (min-width: 25em){
+	html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+  }
+  
+  @media screen and (min-width: 50em){
+  html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+  }
+
+  @media only screen and (max-width: 767px) {
+	#wallpaper_index{
+
+		background: url(pic/cover.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	
+	
+	}
+	
+	#wallpaper_information{
+	
+		background: url(pic/score.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	
+	
+	
+	}
+	#wallpaper_quiz
+	{
+		background: url(pic/quiz.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>ข้อมูล</title>
+</head>
+<body id="wallpaper_information">
+    
+    <div class="container">
+        
+        <form action="question.html" class="form_information">
+            <h1 class="header" id="header_information">กรอกข้อมูล</h1>
+            <div>
+                <label for="name" >ตั้งชื่อแบบเก๋ ๆ </label>&nbsp;
+                <input type="text" id="name" name="fname" required><br><br>
+
+
+                <!--เพศ-->
+                <label >เพศ</label>
+                <input type="radio" id="gender_male" name="gender" value="male" required>
+                <label for="gender">ผู้ชาย</label>
+                <input type="radio" id="gender_female" name="gender" value="female" >
+                <label for="gender">ผู้หญิง</label><br><br>
+
+
+                <!--ชั้น-->
+                <label >ระดับชั้น</label>
+                <input type="radio" id="grade_1" name="grade" value="ม.1" required>
+                <label for="grade">ม.1</label>
+                <input type="radio" id="grade_2" name="grade" value="ม.2" >
+                <label for="grade">ม.2</label>
+                <input type="radio" id="grade_3" name="grade" value="ม.3" >
+                <label for="grade">ม.3</label><br><br>
+            </div>
+            <div>
+                <input type="submit" value="เริ่มทำแบบทดสอบ" class="myButton">
+            </div>
+                
+        </form>
+    </div>
+
+</body>
+</html>
