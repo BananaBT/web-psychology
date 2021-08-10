@@ -1,3 +1,5 @@
+
+
 function check(){
 
     var score = 0;
@@ -32,8 +34,13 @@ function check(){
         score+=3
     }
     }
-
+    window.location.href = "index.html";
     alert("คะแนนของคุณคือ "+score);
+    
+
+
+
+    
 
 
 
