@@ -18,10 +18,14 @@ function check(){
 	var question13 = document.question.quiz_13.value;
     var question14 = document.question.quiz_14.value;
     var question15 = document.question.quiz_15.value;
+
     
     
     const question_name=[question1,question2,question3,question4,question5,question6,
         question7,question8,question9,question10,question11,question12,question13,question14,question15]
+    
+
+    
     
     for (var i = 0; i < question_name.length; i++) {
     if (question_name[i] == 1){
@@ -34,6 +38,7 @@ function check(){
         score+=3
     }
     }
+    
     window.location.href = "index.html";
     alert("คะแนนของคุณคือ "+score);
     
