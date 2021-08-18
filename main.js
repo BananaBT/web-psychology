@@ -2,8 +2,10 @@
 
 function check(){
 
+    
+	
     var score = 0;
-	var question1 = document.question.quiz_1.value;
+    var question1 = document.question.quiz_1.value
     var question2 = document.question.quiz_2.value;
     var question3 = document.question.quiz_3.value;
     var question4 = document.question.quiz_4.value;
@@ -17,9 +19,11 @@ function check(){
     var question12 = document.question.quiz_12.value;
 	var question13 = document.question.quiz_13.value;
     var question14 = document.question.quiz_14.value;
-    var question15 = document.question.quiz_15.value;
+    var question15 = document.question.quiz_1.value;
 
     
+
+
     
     const question_name=[question1,question2,question3,question4,question5,question6,
         question7,question8,question9,question10,question11,question12,question13,question14,question15]
@@ -39,23 +43,13 @@ function check(){
     }
     }
     
-
     sessionStorage.setItem("Score", score);
-    window.location.href = "score.html";
-    /*
-    alert("คะแนนของคุณคือ "+score);
-    
-
-*/
-
-    
-
-
-
 /*
+    window.location.href = "score.html";
+
+    alert("คะแนนของคุณคือ "+score);
 
 	document.getElementById("after_submit").style.visibility = "visible";
-
 	document.getElementById("message").innerHTML = messages[score];
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 	document.getElementById("picture").src = pictures[score];
