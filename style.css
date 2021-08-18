@@ -205,7 +205,19 @@ footer
 	text-align: center;
 	margin-block-end: 0;
 }
+#header_score{
+	margin-top: 7em;
+	color: #000;
+}
 
+.score{
+
+	margin-top: 3em;
+
+
+
+
+}
 
 
 /* Uses vh and vm with calc */

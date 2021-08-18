@@ -39,11 +39,14 @@ function check(){
     }
     }
     
-    window.location.href = "index.html";
+
+    sessionStorage.setItem("Score", score);
+    window.location.href = "score.html";
+    /*
     alert("คะแนนของคุณคือ "+score);
     
 
-
+*/
 
     
 
@@ -58,3 +61,15 @@ function check(){
 	document.getElementById("picture").src = pictures[score];
  */
 	}
+
+
+function input_name(){
+
+
+    var name=document.information.fname.value
+    sessionStorage.setItem("Name", name);
+
+
+
+
+}

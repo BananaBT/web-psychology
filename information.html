@@ -8,17 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+    <script src="score.js"></script>
     <title>ข้อมูล</title>
 </head>
 <body id="wallpaper_information">
     
     <div class="container">
         
-        <form action="question.html" class="form_information">
+        <form action="question.html" class="form_information" name="information">
             <h1 class="header" id="header_information">กรอกข้อมูล</h1>
             <div>
                 <label for="name" >ชื่อ-นามสกุล</label>&nbsp;
-                <input type="text" id="name" name="fname" required><br><br>
+                <input type="text" id="name" name="fname" placeholder="ใส่ชื่อของคุณ" required><br><br>
 
                 <!--เพศ-->
                 <label >เพศ</label>
@@ -38,7 +40,7 @@
                 <label for="grade">ม.3</label><br><br>
             </div>
             <div>
-                <input type="submit" value="เริ่มทำแบบทดสอบ" class="myButton" style="margin-bottom: 100px;">
+                <input type="submit" value="เริ่มทำแบบทดสอบ" class="myButton" onclick="input_name();" style="margin-bottom: 100px;">
             </div>
                 
         </form>

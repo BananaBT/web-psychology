@@ -9,12 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="main.js"></script>
+    <script src="score.js"></script>
     <title>สรุปคะแนน</title>
 </head>
-<body>
+<body id="wallpaper_information">
     <div class="container">
-        <h1 class="header">ผลการทำแบบทดสอบวัดแววนักเรียนเพื่อนที่ปรึกษา</h1>
-    
+        <h1 class="header" id="header_score">ผลการทำแบบทดสอบวัดแววนักเรียนเพื่อนที่ปรึกษา</h1>
+        <h3 class="score">
+            คะแนนของ<spen id="show_name"></spen>คือ <spen id="show_score"></spen>
+        </h3>
         <div class="button">
             <a class="myButton" id="back_index" href="index.html">กลับหน้าหลัก</a>
         </div>
